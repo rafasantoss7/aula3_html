@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabelas em HTML</title>
+    </head>
+    <body>
+        <header style="background-color: #aac1ff;">
+            <br>
+            <h1 style="text-align:center">Tabelas</h1>
+            <br>
+        </header>
+        <main>
+            <h2>Tabela de notas de um aluno</h2>
+            <table border="1" style="width: 100%;">
+                <!-- thead -> cabeçalho da tabela -->
+                 <thead style="background-color: #054f77; color: #fff">
+                    <!-- table row (tr) -> Linha do cabeçalho -->
+                    <tr>
+                        <!-- th -> table head (Conteúdo de cabeçalho) -->
+                        <th>Disciplina</th>
+                        <th>Nota 1</th>
+                        <th>Nota 2</th>
+                        <th>Nota 3</th>
+                        <th>Nota 4</th>
+                        <th>Média</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Criar segunda linha da tabela -->
+                    <tr>
+                        <!-- td -> table data -> dados da tabela-->
+                        <td>Matemática</td>
+                        <td>9.0</td>
+                        <td>8.0</td>
+                        <td>8.0</td>
+                        <td>10.0</td>
+                        <td>8.5</td>
+                    </tr>
+                    <!-- Criar a terceira linha da tabela-->
+                    <tr>
+                        <td>Linguagem de marcação</td>
+                        <td>4.0</td>
+                        <td>5.0</td>
+                        <td>3.0</td>
+                        <td>4.0</td>
+                        <td>4.0</td>
+                    </tr>
+                    <!--Criar quarta linha da tabela-->
+                    <tr>
+                        <td>Banco de dados </td>
+                        <td>9.0</td>
+                        <td>9.0</td>
+                        <td>9.0</td>
+                        <td>10.0</td>
+                        <td>9.25</td>
+                    </tr>
+                    <tr>
+                        <!--Criar a quinta linha da tabela-->
+                        <td>Programação Back-End 1</td>
+                        <td>8.0</td>
+                        <td>8.0</td>
+                        <td>7.0</td>
+                        <td>7.0</td>
+                        <td>7.5</td>   
+                    </tr>
+                    <!-- Criar a sexta linha da tabela -->
+                    <tr>
+                        <td>Programação Mobile</td>
+                        <td rowspan="2">-</td>
+                        <td rowspan="2">-</td>
+                        <td>9.0</td>
+                        <td>9.0</td>
+                        <td>9.0</td>
+                    </tr>
+                    <!-- Criar a sétima linha da tabela -->
+                      <tr>
+                        <td>Programação Front-End</td>
+                        <!-- <td >-</td>
+                        <td >-</td> -->
+                        <td>10.0</td>
+                        <td>10.0</td>
+                        <td>10.0</td>
+                      </tr>
+                    <!-- Criar a linha de média final -->
+                     <tr>
+                        
+                        <!-- Colspan = Mesclar colunas-->
+                        <th colspan="5">Média Final:</th>
+                        <th>7.3</th>
+                        
+                     </tr>
+                 </tbody>
+                <!-- Table -> Tabela -->
+
+            </table>
+        </main>
+    </body>
+</html>
